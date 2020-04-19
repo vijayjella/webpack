@@ -1,0 +1,11 @@
+npm --version
+npm init
+npm install --save-dev webpack webpack-cli webpack-dev-server
+"scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server --mode production"
+},
+
+
+npm run build (created dist file)
+npm run start:dev (open in dev port: http://localhost:8080/)
